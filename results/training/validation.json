@@ -1,0 +1,25 @@
+{
+  "scored_runs": 685,
+  "original_scored_runs": 635,
+  "additional_scored_runs": 50,
+  "training_epochs": 68500,
+  "stem_gradient_samples": 68500,
+  "nonfinite_stem_gradients": 256,
+  "coefficient_gradient_epoch_terms": 13000,
+  "coefficient_gradient_samples": 633000,
+  "nonfinite_coefficient_gradients": 10,
+  "final_coefficient_sites": 3250,
+  "runs_with_receipt_checks": 165,
+  "validation_f1_records": 0,
+  "source_scores_sha256": "65afe9768452eeeddd656c71443fa2ca2759cdc65195a45d55facfef475f971c",
+  "prediction_manifest_sha256": "7562ae473850b13d78d568dfeb172558dff5587219baa618775dfe5556012a2d",
+  "run_configs_sha256": "9492b2bb4ea127840029b8820b638c416d678511a6eb87b70329a06485eccc99",
+  "training_files": {
+    "additional_source_audit.csv": "6b21f9c822fd31344a8cacb25deb546f9d55c9a1bb1ccd79270ee100dc02081b",
+    "coefficient_gradient_epochs.csv": "784f7201fb835984f7e4875e857e4dbc6739e076e0671635326db893336a687d",
+    "final_coefficients_verified.csv": "403b731d2f2473d00ee4fef2ab3513f5c0a724b70ea8c6023785b982e6983aa3",
+    "stem_gradients.csv": "42c86129579a2a130bcaa17e848cd889a833efec2a518fe2e6843df006f25032",
+    "training_history.csv": "f0bdc253c0713b21938f5493086d261ae4ca20d5127584323d7b328c8e510ded",
+    "training_source_hashes.csv": "aee5de240c8b17e9e7c3017a4b6c7c7189981edd0dd1acc0dc1fc004a5b6218d"
+  }
+}

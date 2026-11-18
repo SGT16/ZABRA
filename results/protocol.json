@@ -1,0 +1,83 @@
+{
+  "snapshot_utc": "2026-11-15T08:12:40.777974+00:00",
+  "datasets": {
+    "imagenet100": {
+      "classes": 100,
+      "train_count": 126689,
+      "test_count": 5000,
+      "image_size": 160,
+      "class_weight": "none",
+      "test_labels_sha256": "f32b0dfba4c6b87b41c0cdcbb7416e840ecc5b9b655b7285089d6c0bb31a8d69",
+      "dataset_fingerprint_sha256": "1aef1aacf312a5e763363e93dfd79b1488fb3c3223c4c3ff58990e88b8cd9f3d"
+    },
+    "cifar100": {
+      "classes": 100,
+      "train_count": 50000,
+      "test_count": 10000,
+      "image_size": 32,
+      "class_weight": "none",
+      "test_labels_sha256": "80031c23f8300724c6fbc588e4bccbe41c6392041782148727bb497b0132c4ad",
+      "dataset_fingerprint_sha256": "eb587b75b3e0dca80d94a890ddf593166bedb43fbb6f20f28525b2819f0d7abb"
+    },
+    "dermamnist": {
+      "classes": 7,
+      "train_count": 8010,
+      "test_count": 2005,
+      "image_size": 64,
+      "class_weight": "balanced",
+      "test_labels_sha256": "b42481cd36b554c0f6031a9e141a46aaeab879b7a0e38e4d5e58023ff71cbb16",
+      "dataset_fingerprint_sha256": "8a674fe09d79ab75ff51ed7805c4787a410f90fa56bd5660a5a8569c444fd2b4"
+    },
+    "organsmnist": {
+      "classes": 11,
+      "train_count": 16384,
+      "test_count": 8827,
+      "image_size": 64,
+      "class_weight": "balanced",
+      "test_labels_sha256": "4089dd604e48ddb455acb68f37f3ae481a9c56bfa7a3049e20ac8dd7236f1dac",
+      "dataset_fingerprint_sha256": "024a447fd9a3efebb63f5cf0399df22242eabc59e2146e58b415daafc410235e"
+    }
+  },
+  "seeds": [
+    936137,
+    529212,
+    448132,
+    942529,
+    110107
+  ],
+  "benchmark": {
+    "gpu": "NVIDIA RTX A5500",
+    "torch": "2.12.1+cu132",
+    "cudnn": 92000,
+    "cuda": "13.2",
+    "checkpoint_site": "relu (learned stem of small-input ResNet18)",
+    "timing": "warmed synthetic inputs on GPU, CUDA events, no data loader or transfer",
+    "memory": "fresh process per cell, peak allocated/reserved after warmup",
+    "compile_backend": "cudagraphs, fullgraph=True, dynamic=False",
+    "warmup_calls": 20,
+    "blocks": 10,
+    "calls_per_block": 20,
+    "checkpoint_sha256": {
+      "ZABRA": "4e803626f1da4e0e8fc72f99ad262d4131c1573b704c6edf320ee1275c740660",
+      "ReLU": "48ac6b89fc82470521673b673a49239fe85c41498e959ac1dfcac926f56328a5"
+    },
+    "measured_cells": 16,
+    "excluded_cells": 0
+  },
+  "training_runs": {
+    "ELU": 60,
+    "LeakyReLU": 60,
+    "Mish": 60,
+    "PELU": 60,
+    "PReLU": 60,
+    "ReLU": 60,
+    "Squareplus-fixed": 45,
+    "Squareplus-learned": 45,
+    "Swish": 60,
+    "ZABRA": 60,
+    "PowLU": 55,
+    "ZABRA-Even": 5,
+    "ZABRA-Odd": 5
+  },
+  "numerical_failure_controls": 5
+}

@@ -1,0 +1,4 @@
+* text=auto eol=lf
+results/training/*.csv -text
+results/configurations/*.jsonl -text
+results/measurements/*.csv -text

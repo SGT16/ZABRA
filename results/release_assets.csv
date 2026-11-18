@@ -1,0 +1,6 @@
+file,bytes,sha256,url
+ZABRA_Predictions_cifar100.zip,1138689933,7d960476bfab975f973a536a1bb31accbb7518f112d26ea2c7ddeb93baeee6f8,https://github.com/SGT16/ZABRA/releases/download/evidence-2026-11-18/ZABRA_Predictions_cifar100.zip
+ZABRA_Predictions_dermamnist.zip,15144907,c9fff32a44a04e20b7166873bc5d09d4e5554f2559268783a189cbf827c3d0e7,https://github.com/SGT16/ZABRA/releases/download/evidence-2026-11-18/ZABRA_Predictions_dermamnist.zip
+ZABRA_Predictions_imagenet100.zip,406771452,60835b152d07db52656e426b754571fd5ffae1aba28ddfb6a18ae061b4838563,https://github.com/SGT16/ZABRA/releases/download/evidence-2026-11-18/ZABRA_Predictions_imagenet100.zip
+ZABRA_Predictions_organsmnist.zip,102662470,118545bfad9c122791b3dbdc7431fcabd92e881c65bb13c28a81c320855e2fef,https://github.com/SGT16/ZABRA/releases/download/evidence-2026-11-18/ZABRA_Predictions_organsmnist.zip
+ZABRA_CIFAR100_ResNet18_Agirliklar.zip,208642049,a0cbacff5b6357fa737aad8643af3e865923ce458bd6599a4951e5b3862c7e48,https://github.com/SGT16/ZABRA/releases/download/evidence-2026-11-18/ZABRA_CIFAR100_ResNet18_Agirliklar.zip
